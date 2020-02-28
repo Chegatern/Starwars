@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Black.woff') format('woff'),
+       url('../fonts/ProximaNova-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, rgba(8, 8, 8, 0) 75.81%, #070506 100%), url(../img/main-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  width: 95%;
+  max-width: 1060px;
+  margin: auto;
+}
+
+ /* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.menu {
+  margin-left: 70px;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+/* MAIN */
+
+.subtitle {
+  font-family: Proxima Nova;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 78px;
+}
+
+.title {
+  font-family: Proxima Nova;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 78px;
+  margin-top: 5px;
+}
+
+.info {
+  max-width: 572px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #AFAFAF;
+  margin-top: 25px;
+}
+
+.premiere {
+  display: block;
+  font-size: 18px;
+  line-height: 150%;
+  color: #B02000;
+  margin-top: 25px;
+}
+
+.data {
+  display: block;
+  font-size: 24px;
+  line-height: 150%;
+  margin-top: 5px;
+}
+
+.btn {
+  display: block;
+  background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
+  border-radius: 300px;
+  border: none;
+  margin-top: 54px;
+}
+
+.btn-text {
+  display: block;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  align-items: center;
+  margin: 25px 87px 25px 35px;
+}
+
+/* SLIDER */
+
+.series {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+}
+
+.card {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  padding: 29px;
+  margin-right: 20px;
+}
+
+.swiper-wrapper{
+  margin-bottom: 27px;
+}
+
+.title-slider {
+  display: block;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.arrow-left{
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-image: url(../img/icons/arrow-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  margin-right: 15px;
+}
+
+.arrow-right{
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-image: url(../img/icons/arrow-right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+}
+
+.series-1 {
+  background: linear-gradient(0deg, rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86)), url(../img/series-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.series-2 {
+  background: linear-gradient(0deg, rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86)), url(../img/series-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.series-3 {
+  background: linear-gradient(0deg, rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86)), url(../img/series-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.series-4 {
+  background: linear-gradient(0deg, rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86)), url(../img/series-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.series-1:hover {
+  background: linear-gradient(0deg, rgba(64, 101, 255, 0.86), rgba(64, 101, 255, 0.86)), url(../img/series-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.series-2:hover {
+  background: linear-gradient(0deg, rgba(64, 101, 255, 0.86), rgba(64, 101, 255, 0.86)), url(../img/series-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.series-3:hover {
+  background: linear-gradient(0deg, rgba(64, 101, 255, 0.86), rgba(64, 101, 255, 0.86)), url(../img/series-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.series-4:hover {
+  background: linear-gradient(0deg, rgba(64, 101, 255, 0.86), rgba(64, 101, 255, 0.86)), url(../img/series-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer {
+  margin-top: 59px;
+  margin-bottom: 111px;
+}
